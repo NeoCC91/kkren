@@ -8,7 +8,8 @@ find_package(Eigen3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIRS})
 
 find_package(TBB REQUIRED)
+find_package(Clipper2 REQUIRED)
 
 add_executable(kkren main.cpp)
 
-target_link_libraries(${PROJECT_NAME} TBB::tbb)
+target_link_libraries(${PROJECT_NAME} TBB::tbb Clipper2::Clipper2)

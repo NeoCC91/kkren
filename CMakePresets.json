@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "default",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "D:\\cc_libs\\eigen3;D:\\cc_libs\\oneTBB;D:\\cc_libs\\Clipper2"
+      }
+    },
+    {
+      "name": "default_ninja",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "D:\\cc_libs\\eigen3;D:\\cc_libs\\oneTBB;D:\\cc_libs\\Clipper2"
+      }
+    }
+  ]
+}
