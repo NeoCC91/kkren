@@ -11,4 +11,4 @@ find_package(TBB REQUIRED)
 
 add_executable(kkren main.cpp)
 
-target_link_libraries(${PROJECT_NAME} TBB::tbb pmp)
+target_link_libraries(${PROJECT_NAME} TBB::tbb)
